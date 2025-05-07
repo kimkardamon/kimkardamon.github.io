@@ -2,31 +2,69 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>36 engineering</title>
-<link rel="stylesheet" href="style.css" />
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+display: flex;
+}
+
+nav {
+background-color: #000;
+color: #fff;
+width: 200px;
+height: 100vh;
+padding-top: 20px;
+box-sizing: border-box;
+position: fixed;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+nav li {
+border-bottom: 1px solid #444;
+padding: 20px;
+font-size: 24px;
+text-transform: lowercase;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+display: block;
+}
+
+main {
+margin-left: 200px;
+padding: 40px;
+}
+
+section {
+margin-bottom: 80px;
+}
+</style>
 </head>
 <body>
-<nav class="sidebar">
-<a href="#work">work</a>
-<a href="#shop">shop</a>
-<a href="#radio">radio</a>
-<a href="#memento">memento<br>mori</a>
-<a href="#socials">socials</a>
-<a href="#contact">contact</a>
-<a href="#chat">chat</a>
+<nav>
+<ul>
+<li><a href="work.html" target="_blank">work</a></li>
+<li><a href="shop.html" target="_blank">shop</a></li>
+<li><a href="radio.html" target="_blank">radio</a></li>
+<li><a href="memento.html" target="_blank">memento mori</a></li>
+<li><a href="socials.html" target="_blank">socials</a></li>
+<li><a href="contact.html" target="_blank">contact</a></li>
+<li><a href="chat.html" target="_blank">chat</a></li>
+</ul>
 </nav>
-
 <main>
-<section id="work"><h2>Work</h2></section>
-<section id="shop"><h2>Shop</h2></section>
-<section id="radio"><h2>36 Radio</h2></section>
-<section id="memento"><h2>Memento Mori</h2></section>
-<section id="socials"><h2>Socials</h2></section>
-<section id="contact"><h2>Contact</h2></section>
-<section id="chat"><h2>Chat</h2></section>
+<h1>Bienvenue sur 36 engineering</h1>
+<p>Le site est en ligne et prêt à évoluer.</p>
 </main>
-
-<script src="script.js"></script>
 </body>
 </html>
